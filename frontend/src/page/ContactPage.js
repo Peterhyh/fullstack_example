@@ -47,7 +47,7 @@ const ContactPage = () => {
                                 className='form-control'
                                 rows='12'
                                 name='message'
-                                type='textarea'
+                                as='textarea'
                                 placeholder='message'
                             />
                         </Col>
