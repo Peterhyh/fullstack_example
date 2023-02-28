@@ -1,14 +1,9 @@
-import ContactPage from './page/ContactPage';
-import './App.css';
+import ContactPage from "./page/ContactPage";
+import { Formik } from "formik";
+import "./App.css";
 
 function App() {
-  return (
-    <ContactPage />
-  );
+  return <ContactPage />;
 }
 
 export default App;
-
-
-
-
