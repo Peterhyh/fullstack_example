@@ -25,11 +25,14 @@ const ContactPage = () => {
         },
         body: JSON.stringify(values, null, 2),
       })
-        .then((data) => data.json())
-        .then((d) => {
-          alert(JSON.stringify(d));
-          console.log(d);
-        });
+        .then((response) => {
+          response.json()
+        })
+        .then((data) => {
+          alert(JSON.stringify(data));
+          console.log(data);
+        })
+        .catch(err => new Error('ERROR'))
     },
   });
 
